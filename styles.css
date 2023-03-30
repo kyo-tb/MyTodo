@@ -1,0 +1,150 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.user-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.user-name {
+  margin-right: 32px;
+}
+
+.logout-btn {
+  background-color: #ccc;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 8px;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main {
+  width: 480px;
+  margin: 32px auto;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+  margin: 16px 0 32px;
+}
+
+p {
+  font-size: 16px;
+  text-align: center;
+}
+
+input[type="text"] {
+  width: 70%;
+  padding: 4px;
+  box-sizing: border-box;
+  margin-bottom: 16px;
+}
+
+.todo-title {
+  width: 100%;
+}
+
+
+ul {
+  list-style: none;
+  margin: 30px 0;
+  padding: 0;
+}
+
+li {
+  display: flex;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+input[type="checkbox"] {
+  margin-right: 8px;
+}
+
+.title-box {
+  display: flex;
+}
+
+.done {
+  text-decoration: line-through;
+  color: #ccc;
+}
+
+.delete,
+.purge {
+  color: #ccc;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+.delete-form {
+  margin-left: auto;
+  padding-left: 8px;
+}
+
+.title {
+  width: 240px;
+}
+
+
+.deadline {
+  display: inline-block;
+  /* text-align: right; */
+  min-width: 180px;
+}
+
+.login-form {
+  width: 400px;
+  margin: 64px auto;
+  text-align: center;
+}
+
+.login-form h1 {
+  font-weight: normal;
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.login-form p {
+  margin-top: 24px;
+  font-size: 12px;
+}
+
+.username input,
+.usermail input,
+.userpass input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.userbutton input[type="submit"] {
+  width: 100%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 8px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* カレンダー */
+
+
+
+
